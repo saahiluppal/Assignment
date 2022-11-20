@@ -52,3 +52,22 @@ input = {"name": 43987349,"freeze": [],"styles": {},"merges": {},"rows": {},"val
 input = {"name": "sheet2","freeze": "A1","styles": [],"merges": [],"rows": {},"validations": []}
 input = {"name": "","freeze": "","styles": [],"merges": [],"rows": {},"validations": []}
 ```
+
+* By Applying these 3 test cases, we can make sure that the input provided must match the required schema.
+
+### Code Execution
+There are two files present in the folder structure. (README.md can be ignored)
+```
+├── data.txt
+└── test_module.py
+```
+* Update the data.txt to simulate the input and then execute the `test_module.py` file.
+* There are no dependencies; vanilla installation of python will be enough.
+
+```bash
+$ python test_module.py
+```
+
+### Additional Information
+* This code is written in Python instead of JavaScript; Because i have a very little knowledge of how javascript works.
+* Code is highly commented.
